@@ -1,0 +1,98 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffe4e1; /* Soft pink background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ff69b4; /* Hot pink color */
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #f8bbd0;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item.completed {
+  background-color: #d8bfd8; /* Light purple for completed tasks */
+  text-decoration: line-through;
+}
+
+.todo-item:hover {
+  background-color: #ffc0cb; /* Lighter pink on hover */
+}
+
+.todo-text {
+  font-size: 1.2rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #ff6f61; /* Coral */
+  color: white;
+}
+
+.btn-complete {
+  background-color: #ffb6c1; /* Light pink */
+  color: white;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ff69b4;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.add-button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #ff1493; /* Deeper pink on hover */
+}

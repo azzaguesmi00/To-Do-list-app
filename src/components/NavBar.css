@@ -1,0 +1,14 @@
+/* NavBar.css */
+.navbar {
+    background-color: #f8d8e8; /* Light pink background */
+  }
+  
+  .nav-link {
+    color: #d5006d; /* Darker pink for links */
+    margin: 0 15px; /* Spacing between links */
+  }
+  
+  .nav-link:hover {
+    color: #ff0080; /* Lighter pink on hover */
+  }
+  
